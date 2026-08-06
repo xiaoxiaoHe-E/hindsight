@@ -9,8 +9,8 @@
         "litellm",
         "langgraph",
         "pydantic-ai",
-        "ai-sdk",
-        "chat",
+        "vercel-ai-sdk",
+        "vercel-chat",
         "crewai",
         "ag2",
         "agno",
@@ -30,6 +30,22 @@
       "integrations": [
         "claude-code",
         "codex",
+        "cursor",
+        "cursor-cli",
+        "cline",
+        "roo-code",
+        "aider",
+        "continue",
+        "opencode",
+        "openhands",
+        "zed",
+        "zcode",
+        "copilot-cli",
+        "github-copilot",
+        "devin-desktop",
+        "gemini-spark",
+        "grok-build",
+        "claude-agent-sdk",
         "hermes"
       ],
       "manifest_file": "templates/coding-agent.json"
@@ -53,6 +69,15 @@
       "description": "For agents that talk to many people across chat platforms (Telegram, Discord, Slack). Keeps per-person profiles distinct, learns each community's norms, and tracks open threads across users.",
       "category": "chat",
       "integrations": [
+        "langgraph",
+        "crewai",
+        "agno",
+        "ag2",
+        "autogen",
+        "dify",
+        "flowise",
+        "n8n",
+        "zapier",
         "hermes"
       ],
       "manifest_file": "templates/hermes-gateway-bot.json"
@@ -63,6 +88,16 @@
       "description": "For orchestrations of specialized agents. Remembers decisions and their rationale, ownership boundaries, hand-offs, and how past escalations were resolved. High literalism and skepticism for precise coordination.",
       "category": "orchestration",
       "integrations": [
+        "langgraph",
+        "crewai",
+        "ag2",
+        "autogen",
+        "agno",
+        "google-adk",
+        "openai-agents",
+        "claude-agent-sdk",
+        "smolagents",
+        "omnigent",
         "hermes"
       ],
       "manifest_file": "templates/hermes-orchestrator.json"
@@ -73,6 +108,16 @@
       "description": "For support and client-comms agents. Remembers customer issues, resolutions, sentiment, and account context so every interaction is informed. High empathy, never re-asks known details.",
       "category": "support",
       "integrations": [
+        "langgraph",
+        "crewai",
+        "agno",
+        "dify",
+        "flowise",
+        "n8n",
+        "zapier",
+        "openai-agents",
+        "vapi",
+        "pipecat",
         "hermes"
       ],
       "manifest_file": "templates/customer-support.json"
@@ -83,6 +128,16 @@
       "description": "For research, monitoring, and knowledge-work agents that write briefings and digests or maintain a second brain. Learns the user's interests, tracks what to ignore to sharpen curation, and compounds durable knowledge with sources over time.",
       "category": "research",
       "integrations": [
+        "obsidian",
+        "llamaindex",
+        "haystack",
+        "perplexity",
+        "langgraph",
+        "crewai",
+        "agno",
+        "google-adk",
+        "openai-agents",
+        "claude-code",
         "hermes"
       ],
       "manifest_file": "templates/research-assistant.json"
